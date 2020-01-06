@@ -47,6 +47,7 @@ exports.getNextUniqueId = (callback) => {
       callback(null, zeroPaddedNumber(counter));
     });
   });
+};
 
 
 
